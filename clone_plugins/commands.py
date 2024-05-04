@@ -257,10 +257,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.CABOUT_TXT.format(me2, ownerid),
+            text=script.SETTING,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+
 
     elif query.data == "custom caption":
         buttons = [[
@@ -277,6 +278,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.CABOUT_TXT.format(me2, ownerid),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
+        )        
         )
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
