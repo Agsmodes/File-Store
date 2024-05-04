@@ -255,7 +255,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
-        me2 = (await client.get_me()).mention
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CABOUT_TXT.format(me2, ownerid),
@@ -273,7 +272,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             query.message.id, 
             InputMediaPhoto(random.choice(PICS))
         )
-        me2 = (await client.get_me()).mention
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.CABOUT_TXT.format(me2, ownerid),
