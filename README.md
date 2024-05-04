@@ -103,7 +103,7 @@ Copyright ©️ [AgsMods](https://telegram.me/AgsModsOG)
 </details>
 
 
-### Copyright ©️ [AgsModes](https://telegram./AgsModsOG)
+### Copyright ©️ [AgsModes](https://telegram.me/AgsModsOG)
 
 <b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
 
