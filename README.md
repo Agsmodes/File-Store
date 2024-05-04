@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="https://graph.org/file/d57d6f83abb6b8d0efb02.jpg" alt="VJ-FILE-STORE-BOT Logo">
+  <img src="https://telegra.ph/file/e94c70b095a08cf220efd.jpg" alt="𝗡𝗲𝘇𝘂𝗸𝗼 𝗙𝗶𝗹𝗲 𝗦𝘁𝗼𝗿𝗲 𝗕𝗼𝘁">
 </p>
 <h1 align="center">
-  VJ FILE STORE BOT
+  𝗡𝗲𝘇𝘂𝗸𝗼 𝗙𝗶𝗹𝗲 𝗦𝘁𝗼𝗿𝗲 𝗕𝗼𝘁
 </h1>
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+VJ-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+Yt-@Tech_VJ!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Tech+VJ;Because+He+Public+The+Paid+Repo;Thank+You!)
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=Welcome+To+Nezuko-FILE-STORE-BOT;A+Highly+Advance+File+Store+Bot;Made+By+@AgsModsOG!;With+Clone+Feature+Stream/Download+Link;Custom+Url+Shortner+Auto+Delete+Feature;A+Bot+With+Fully+Advanced+Feature!;Must+Give+Credit+To+Ags+Mods;Because+He+Public+The+Paid+Repo;Thank+You!)
 </p>
 
 ## Features
@@ -83,13 +83,13 @@
 
 <b><details><summary>Tap On Me For See Credit</summary>
 
-💝 Credit Goes To [Tech VJ](https://telegram.me/Kingvj01)
+💝 Credit Goes To [AgsMods]([https://telegram.me/AgsModsOG])
 
-🖍️ This Code Is Fully Written Or Coded And Public By [Tech VJ](https://telegram.me/Kingvj01) So Don't Forgot To Give Credit
+🖍️ This Code Is Fulltten Or Coded And Public By [Tech VJ](https://telegram.me/Kingvj01) So Don't Forgot To Give Credit
 
 💖 And Thank You So Much To All Who Help In This Journey 💕
 
-Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
+Copyright ©️ [AgsMods](https://telegram.me/AgsModsOG)
 
 </b>
 </details>
@@ -98,16 +98,12 @@ Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
 
 <b><details><summary>Tap On Me For See Details Of Owner</summary>
 
-- YouTube Channel : [Tech VJ](https://youtube.com/@Tech_VJ)
-- Telegram Channel : [VJ Botz](https://telegram.me/VJ_Botz)
-- Contact Link : [King VJ](https://telegram.me/Kingvj01)
-- Instagram Id Link : [Tech VJ](https://instagram.com/tech.vj)
-
+- Telegram Channel : [AgsMods](https://telegram.me/AgsModsOG)
 </b>
 </details>
 
 
-### Copyright ©️ [Tech VJ](https://telegram.me/Kingvj01)
+### Copyright ©️ [AgsModes](https://telegram./AgsModsOG)
 
 <b>Selling This Repo Or Code Of This Repo For Money Is Strictly Prohibited 🚫</b>
 
