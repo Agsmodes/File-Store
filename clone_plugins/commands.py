@@ -247,8 +247,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "settings":
         buttons = [[
-            InlineKeyboardButton('ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ 📃', callback_data='custom caption'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ 📃', callback_data='custom caption')
+        ],[
+            InlineKeyboardButton('<ʙᴀᴄᴋ', callback_data='start')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -266,9 +267,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "custom caption":
         buttons = [[
-            InlineKeyboardButton('ᴄᴜꜱᴛᴏᴍ ᴄᴀᴩᴛɪᴏɴ 📃', callback_data='DEFAULT_CAPTION'),
-            InlineKeyboardButton('🔒 Cʟᴏsᴇ', callback_data='close_data')
-        ]]
+            InlineKeyboardButton('ꜱᴇᴛ ᴄᴀᴩᴛɪᴏɴ', callback_data='DEFAULT_CAPTION')
+        ],[
+            InlineKeyboardButton('<ʙᴀᴄᴋ', callback_data='settings')
+          ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -276,7 +278,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text=script.CABOUT_TXT.format(me2, ownerid),
+            text=script.DEFAULT_CAPTION,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )        
