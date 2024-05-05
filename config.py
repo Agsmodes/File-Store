@@ -55,7 +55,7 @@ AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Second
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002076944912"))
-FILE_STORE_CHANNEL = [int(environ.get('FILE_STORE_CHANNEL', '-1002068233085')).split()]
+FILE_STORE_CHANNEL = int(environ.get('FILE_STORE_CHANNEL', '-1002068233085'))
 AUTH_CHANNEL = int(environ.get("AUTH_CHANNEL", "-1001886191952"))
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
