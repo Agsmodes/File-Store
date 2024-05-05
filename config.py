@@ -45,7 +45,7 @@ DB_NAME = environ.get("DB_NAME", "file")
 # Ask Doubt on telegram @KingVJ01
 
 # Bot Information
-BOT_TOKEN = environ.get("BOT_TOKEN", "7198972758:AAGDBRDfhWp_fpChEyeBoQAeR_nzXooKt7s")
+BOT_TOKEN = environ.get("BOT_TOKEN", "6752660958:AAEMksbOEOXksb2bk2TxYzLJhGWedhomS9c")
 BOT_USERNAME = environ.get("BOT_USERNAME", "ags_clone_file_store_bot") # your bot username without @
 PICS = (environ.get('PICS', 'https://telegra.ph/file/240720bec6145bb269f17.jpg')).split() # Bot Start Picture
 
