@@ -496,37 +496,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.answer(f"☣something went wrong\n\n{e}", show_alert=True)
             return
 
-@Client.on_message(filters.command('stats') & filters.incoming)
-async def get_stats(bot, message):
-    rju = await message.reply('<b>Pʟᴇᴀꜱᴇ Wᴀɪᴛ...</b>')
-    total_users = await db.total_users_count()
-    total_chats = await db.total_chat_count()
-    files = await Media.count_documents()
-    size = await db.get_db_size()
-    free = 536870912 - size
-    size = get_size(size)
-    free = get_size(free)
-    await rju.edit(script.STATUS_TXT.format(files, total_users, total_chats, size, free))
-
-@Client.on_callback_query()
-async def callback_handler(bot, query):
-    if query.data == "stats":
-        buttons = [
-            [
-                InlineKeyboardButton('⟳ Rᴇꜰʀᴇꜱʜ', 'stats'),
-                InlineKeyboardButton('« Bᴀᴄᴋ', 'help')           
-            ]
-        ]
-        total = await Media.count_documents()
-        users = await db.total_users_count()
-        chats = await db.total_chat_count()
-        monsize = await db.get_db_size()
-        free = 536870912 - monsize
-        monsize = get_size(monsize)
-        free = get_size(free)
-        await query.message.edit_text('ʟᴏᴀᴅɪɴɢ....')
-        await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.STATUS_TXT.format(total, users, chats, monsize, free), enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons))
-
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
