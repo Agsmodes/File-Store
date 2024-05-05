@@ -406,22 +406,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
-
-        elif query.data == "settings":
-        buttons = [[
-            InlineKeyboardButton('stats', callback_data='stats')
-        ],[
-            InlineKeyboardButton('<ʙᴀᴄᴋ', callback_data='start')
-        ]]
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await query.message.edit_text(
-            text=script.SETTING_TXT,
-            reply_markup=reply_markup,
             
 
 # Don't Remove Credit Tg - @VJ_Botz
@@ -443,7 +427,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.HELP_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )  
+        ) 
+
+     elif query.data == "settings":
+        buttons = [[
+            InlineKeyboardButton('stats', callback_data='stats')
+        ],[
+            InlineKeyboardButton('<ʙᴀᴄᴋ', callback_data='start')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.SETTING_TXT,
+            reply_markup=reply_markup,
 
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
